@@ -67,7 +67,7 @@ curl -I http://localhost:8888/login.html
 
 Start the development server:
 ```bash
-cd /home/runner/work/novo-site-completo/novo-site-completo
+cd /path/to/novo-site-completo
 php -S localhost:8000 index.php
 ```
 

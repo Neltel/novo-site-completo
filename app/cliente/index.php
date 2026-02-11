@@ -119,7 +119,7 @@
         }
         
         .info-box li:before {
-            content: "✓ ";
+            content: "• ";
             color: var(--cor-primaria);
             font-weight: bold;
             margin-right: 0.5rem;
@@ -128,12 +128,12 @@
 </head>
 <body>
     <div class="container">
-        <h1>🏠 Portal do Cliente</h1>
+        <h1>Portal do Cliente</h1>
         <p>Bem-vindo ao Portal do Cliente da NM Refrigeração. Aqui você pode gerenciar suas solicitações, acompanhar orçamentos e muito mais.</p>
         
         <div class="buttons">
             <a href="/login.html" class="btn btn-primary">Fazer Login</a>
-            <a href="/api" class="btn btn-secondary">Documentação da API</a>
+            <a href="https://github.com/Neltel/novo-site-completo#readme" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Documentação</a>
         </div>
         
         <div class="info-box">

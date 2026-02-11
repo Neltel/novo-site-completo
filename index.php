@@ -28,7 +28,7 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 0); // Nunca exibir erros para o usuário
 ini_set('log_errors', 1);
-ini_set('error_log', dirname(__DIR__) . '/logs/php-errors.log');
+ini_set('error_log', __DIR__ . '/logs/php-errors.log');
 
 // Headers de segurança (Content-Type será definido por rota)
 header('X-Content-Type-Options: nosniff');
